@@ -1,0 +1,55 @@
+html *
+{
+   font-family: Arial !important;
+}
+h3 {
+	color: DarkSlateBlue;
+	font-family: arial;
+}
+
+h2 {
+	color: DarkSlateBlue;
+	font-family: arial;
+}
+
+a {
+	color: DarkSlateBlue;
+	font-family: arial;
+	text-decoration: none;
+}
+
+p {
+	color: black;
+	font-family: arial;
+}
+ul {
+	margin-top: 0px;
+	font-family: arial;
+}
+p + ul {
+	margin-top: -15px;
+	font-family: arial;
+}
+ul + p {
+	margin-top:  0px;
+	font-family: arial;
+}
+I {
+	font-family: arial;
+}
+column {
+	float: left;
+	padding: 10px;
+	height: 300px;
+}
+left {
+	width: 25%;
+}
+right {
+	width: 75%;
+}
+row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
